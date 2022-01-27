@@ -1,4 +1,5 @@
 
+
 class Singleton{
     private static Singleton instance = new Singleton();
     private int age = 0;
@@ -34,7 +35,7 @@ class Singleton{
 }
 
 
-public class Program{
+public class Program001{
     public static void main(String[] args) {
         System.out.println(Singleton.get());
 
