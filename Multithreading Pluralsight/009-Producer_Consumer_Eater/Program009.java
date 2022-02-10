@@ -13,15 +13,12 @@ class SharedSum{
     private SharedSum(SharedSum obj){}
 
     public static SharedSum getSum(){
-        // Synchronizing the singleton is not enough
         synchronized(syncObj){
             return obj;
         }
     }
 
     public static void incrementSum(){
-        // If we were to delete the syncrhonization, 
-        // annomalies would arise
         synchronized(syncObj){
             ++obj.Sum;
         }
