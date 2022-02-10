@@ -38,8 +38,8 @@ class Cool{
             threadOne.interrupt();
             outputThread.interrupt();
         }
-
         catch(Exception e){}
+        
         outputThread.join();
     }
 }
