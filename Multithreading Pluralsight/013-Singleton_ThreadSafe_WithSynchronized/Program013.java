@@ -10,7 +10,6 @@ class Singleton{
     private final Object keyName = new Object();
     private final Object keyAge = new Object();
 
-    //there will be no locking synchronization in the get method now
     public static synchronized Singleton get(){
         if(instance==null){
             instance = new Singleton();
