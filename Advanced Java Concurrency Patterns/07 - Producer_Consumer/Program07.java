@@ -60,7 +60,7 @@ public class Program07 {
         int multiplicator=2;
         int consumeTimes=10;
         int produceTimes=30;
- 
+        
         int consumeCounts = multiplicator*consumeTimes;
         int produceCounts = multiplicator*produceTimes;
 
