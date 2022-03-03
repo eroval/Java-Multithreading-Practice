@@ -183,7 +183,7 @@ public class Program10 {
     public static void main(String[] args) throws InvalidAttributeValueException {
             Person pOne = new Person("Harry", 20);
             
-            Person pTwo = new Person("Garry", 30);
+            Person pTwo = new Person("Gar", 30);
             Person pThree = new Person("Larry", 30);
             Person pFour = new Person("Barry", 30);
             Person pFive = new Person("Denis", 5);
